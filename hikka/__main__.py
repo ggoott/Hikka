@@ -32,14 +32,10 @@ if (
 def deps():
     subprocess.run(
         [
-            sys.executable,
-            "-m",
+            sys.executable, 
             "pip",
             "install",
             "--upgrade",
-            "-q",
-            "--disable-pip-version-check",
-            "--no-warn-script-location",
             "-r",
             "requirements.txt",
         ],
