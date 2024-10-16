@@ -782,11 +782,11 @@ class Hikka:
 
             await client.hikka_inline.bot.send_animation(
                 logging.getLogger().handlers[0].get_logid_by_client(client.tg_id),
-                "https://0x0.st/s/rb9tZIdwR0GZ4ALgGW88Ew/X6IT.mp4",
+                "https://0x0.st/s/-76GFdh-PuPaiw4pnM-yGQ/XIbn.mp4",
                 caption=(
-                    "🌘 <b>𝙷𝚒𝚔𝚔𝚊 {} 𝚂𝚝𝚊𝚛𝚝𝚎𝚍!</b>\n\n🌳 <b>𝙶𝚒𝚝𝙷𝚞𝚋 𝚌𝚘𝚖𝚖𝚒𝚝 𝚂𝙷𝙰: <a"
+                    "<emoji document_id=5404618280704942485>🐾</emoji> <b>𝙷𝚒𝚔𝚔𝚊 {} 𝚂𝚝𝚊𝚛𝚝𝚎𝚍!</b>\n\n<emoji document_id=5404708599572209730>😊</emoji> <b>𝙶𝚒𝚝𝙷𝚞𝚋 𝚌𝚘𝚖𝚖𝚒𝚝 𝚂𝙷𝙰: <a"
                     ' href="https://github.com/ggoott/Hikka/commit/{}">{}</a></b>\n✊'
-                    " <b>Update status: {}</b>\n<b>{}</b>\n\n💜 𝙵𝚘𝚛𝚔𝚎𝚍 𝚋𝚢: @amm1e".format(
+                    "<emoji document_id=5402616568246969654>🙂</emoji> <b>𝚄𝚙𝚍𝚊𝚝𝚎 𝚜𝚝𝚊𝚝𝚞𝚜: {}</b>\n<b>{}</b>\n\n<emoji document_id=5404425823220408230>🔥</emoji> 𝙵𝚘𝚛𝚔𝚎𝚍 𝚋𝚢: @amm1e".format(
                         ".".join(list(map(str, list(__version__)))),
                         build,
                         build[:7],
