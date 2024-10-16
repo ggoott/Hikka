@@ -786,7 +786,7 @@ class Hikka:
                 caption=(
                     "╭╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╮\n╵\n╵    🐾 <b>𝙷𝚒𝚔𝚔𝚊 {} 𝚂𝚝𝚊𝚛𝚝𝚎𝚍!</b>\n╵     ╴╴╴╴╴╴╴╴╴╴╴╴\n╵\n╵    ✨ <b>𝙶𝚒𝚝𝙷𝚞𝚋 𝚌𝚘𝚖𝚖𝚒𝚝 𝚂𝙷𝙰: <a"
                     ' href="https://github.com/ggoott/Hikka/commit/{}">{}</a></b>'
-                    "\n╵    🎯 <b>𝚄𝚙𝚍𝚊𝚝𝚎 𝚜𝚝𝚊𝚝𝚞𝚜: {}</b>\n╵    <b>{}</b>\n╵\n╵🔥 𝙵𝚘𝚛𝚔𝚎𝚍 𝚋𝚢: @amm1e\n╰╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╯".format(
+                    "\n╵    🎯 <b>𝚄𝚙𝚍𝚊𝚝𝚎 𝚜𝚝𝚊𝚝𝚞𝚜: {}</b>\n╵    <b>{}</b>\n╵\n╵    🔥 𝙵𝚘𝚛𝚔𝚎𝚍 𝚋𝚢: @amm1e\n╰╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╯".format(
                         ".".join(list(map(str, list(__version__)))),
                         build,
                         build[:7],
